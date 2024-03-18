@@ -26,7 +26,7 @@ class Calc
         foreach (var num in numbers)
         {
             if (num > max)
-                max = num
+                max = num;
         }
         return max;
     }
