@@ -8,7 +8,7 @@ Console.WriteLine("Hello, World!");
 
 class Calc
 {
-    public static double getAverage(int[] numbers)
+    public static double GetAverage(int[] numbers)
     {
         if (numbers.Length == 0)
             return 0;
