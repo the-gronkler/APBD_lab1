@@ -14,9 +14,9 @@ class Calc
             return 0;
 
         double sum = 0;
-        foreach (var num in numbers)
+        foreach (var coolNameMaster in numbers)
         {
-            sum += num;
+            sum += coolNameMaster;
         }
         return sum / numbers.Length;
     }
